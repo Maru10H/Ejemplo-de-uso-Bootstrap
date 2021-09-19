@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reducido.css">
+</head>
+
+<style> /*se usa provisoriamente para que pueda verse centrado el contenedor principal*/
+</style>
+
+<body>
+     <!--
+    columnas sm: ≥576px
+    md: ≥768px
+    lg: ≥992px
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-12 border">z</div>
+        </div>
+        <div class="row"> 
+            <div class="col-12 col-sm-6 border">a</div>
+            <div class="col-12 col-sm-6 border">b</div>
+        </div>
+        <div class="row">   
+            <div class="col-12 col-sm-6 col-md-4  col-lg-3 border">c</div>
+            <div class="col-12 col-sm-6 col-md-4  col-lg-3 border">d</div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-3  border">e</div>
+            <div class="col-12 border col-lg-3">z</div>
+        </div>
+    </div>
+    -->
+    
+    <main class="container d-flex align-items-center justify-content-center alto-100">
+        <div class="row">
+            <div class="col-12 col-lg-9 "><!--"lg-9" corresponde a los lugares que va a tomar. los 3 restantes para completar los 12, los toma el aside-->
+                
+                <div class="row"><!--acá comienzo denuevo con 12 porque hago un nuevo "row". -->
+                    <div class="col-12 col-lg-8 p-2 "> <!--estonces esta seccion va a ser de 8 y la otra de 4 para tener dos columnas-->
+                        <article class="card h-100 bg-primary text-white fondo-card shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex mb-3 "><!---margin bottom-->
+                                    <img src="./testimonials-grid-section-main/images/image-daniel.jpg" alt="" class="border border-secondary border-3 rounded-circle">
+                                    <div class="ps-3 mt-2"><!--padding-->
+                                        <h6 class="m-0 h-6">Daniel Lopez</h6> <!--margin 0 -->
+                                        <p class="m-0 h-6">Lorem, ipsum</p><!--"h-6" es el tam.de la tipo-->
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="h6">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor soluta eligendi pariatur. Facilis cumque quod provident, dolorum perspiciatis incidunt esse impedit ea dolore aperiam, amet excepturi vel est saepe laudantium.
+                                    </p>
+                                    <p class="fs-6 lh-1"><!--"fs" = font size-->
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic aliquam dignissimos sed laborum quia nisi, doloremque iusto. Excepturi, quia officia!
+                                    </p>
+                                </div>
+                            </div>
+
+                        </article>
+                    </div>
+                    <div class="col-12 col-lg-4 p-2">
+                        <article class="card h-100  bg-sucess shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex mb-3">
+                                    <img src="./testimonials-grid-section-main/images/image-jeanette.jpg" alt="" class="border border-secondary border-3 rounded-circle">
+                                    <div class="ps-3 mt-2"><!--padding-->
+                                        <h6 class="m-0 h-6">Janeth Guirao</h6> <!--margin 0 -->
+                                        <p class="m-0 h-6">Lorem, ipsum</p><!--"h-6" es el tam.de la tipo-->
+                                    </div>
+                                </div>
+                                <div>
+                                    
+                                    <p class="fs-6 lh-1"><!--"fs" = font size-->
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic aliquam dignissimos sed laborum quia nisi, doloremque iusto. Excepturi, quia officia!
+                                    </p>
+                                </div>
+                            </div>
+
+                        </article>
+                    </div>
+                    <div class="col-12 col-lg-4 p-2">
+                        <article class="card h-100 bg-secondary shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex mb-3">
+                                    <img src="./testimonials-grid-section-main/images/image-jonathan.jpg" alt="" class="border border-secondary border-3 rounded-circle">
+                                    <div class="ps-3 mt-2"><!--padding-->
+                                        <h6 class="m-0 h-6">Jonathan Gimenez</h6> <!--margin 0 -->
+                                        <p class="m-0 h-6">Lorem, ipsum</p><!--"h-6" es el tam.de la tipo-->
+                                    </div>
+                                </div>
+                                <div>
+                                    
+                                    <p class="fs-6 lh-1"><!--"fs" = font size-->
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic aliquam dignissimos sed laborum quia nisi, doloremque iusto. Excepturi, quia officia!
+                                    </p>
+                                </div>
+                            </div>
+
+                        </article>
+                    </div>
+                    <div class="col-12 col-lg-8 p-2">
+                        <article class="card h-100 bg-dark text-white shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex mb-3">
+                                    <img src="./testimonials-grid-section-main/images/image-kira.jpg" alt="" class="border border-secondary border-3 rounded-circle">
+                                    <div class="ps-3 mt-2"><!--padding-->
+                                        <h6 class="m-0 h-6">Kira Chavez</h6> <!--margin 0 -->
+                                        <p class="m-0 h-6">Lorem, ipsum</p><!--"h-6" es el tam.de la tipo-->
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="h6">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor soluta eligendi pariatur. Facilis cumque quod provident, dolorum perspiciatis incidunt esse impedit ea dolore aperiam, amet excepturi vel est saepe laudantium.
+                                    </p>
+                                    <p class="fs-6 lh-1"><!--"fs" = font size-->
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic aliquam dignissimos sed laborum quia nisi, doloremque iusto. Excepturi, quia officia!
+                                    </p>
+                                </div>
+                            </div>
+
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <!--ASIDE-->
+            <div class="col-12 col-lg-3 p-2">
+                <article class="card h-100 bg-secondary shadow-sm">
+                    <div class="card-body">
+                        <div class="d-flex mb-3">
+                            <img src="./testimonials-grid-section-main/images/image-patrick.jpg" alt="" class="border border-secondary border-3 rounded-circle">
+                            <div class="ps-3 mt-2"><!--padding-->
+                                <h6 class="m-0 h-6">Patrick Thompson</h6> <!--margin 0 -->
+                                <p class="m-0 h-6">Lorem, ipsum</p><!--"h-6" es el tam.de la tipo-->
+                            </div>
+                        </div>
+                        <div>
+                            <p class="h6">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor soluta eligendi pariatur. Facilis cumque quod provident, dolorum perspiciatis incidunt esse impedit ea dolore aperiam, amet excepturi vel est saepe laudantium.
+                            </p>
+                            <p class="fs-6 lh-1"><!--"fs" = font size-->
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic aliquam dignissimos sed laborum quia nisi, doloremque iusto. Excepturi, quia officia!
+                            </p>
+                        </div>
+                    </div>
+
+                </article>
+            </div>
+        </div>
+    </main>
+
+
+
+</body>
+</html>
